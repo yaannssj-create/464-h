@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discord.gg/EHZTXduFm2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.discordapp.com/attachments/1181340718057402438/1420183337816821830/image.png?ex=68d7c40d&is=68d6728d&hm=fee15b1b0d49e3b254b512cf42dc1d9b75e8b2165e346d6ba85bfdaac13bbc6c&') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Courier New', Courier, monospace;
+            color: #861f1f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        .image-container img {
+            width: 750px; 
+            height: auto;
+            border: 2px solid #973434; 
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(231, 230, 230, 0.7); 
+        }
+        .info {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #a03939; 
+            text-shadow: 0px 0px 8px #2e1313, 0px 0px 15px #442020, 0px 0px 25px #461212; 
+            letter-spacing: 4.5px; 
+            white-space: pre-wrap;
+        }
+        .text {
+            margin-top: 20px;
+            font-size: 3em; 
+            color: #800c0c; 
+            text-shadow: 0px 0px 8px #300d0d, 0px 0px 15px #2b0a0a, 0px 0px 25px #1d0707; 
+            letter-spacing: 4.5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://cdn.discordapp.com/attachments/1181340718057402438/1420185340911816805/image.png?ex=68d7c5eb&is=68d6746b&hm=fa70abf4b108aca4e328cc160d753256e3d66d73249b4fc7d3499a1ea1d33582&" alt="Discord Image">
+    </div>
+<audio autoplay loop>
+        <source src="4644.mp3" type="audio/mpeg">
+       
+    </audio>
+     <div class="text">Anonymous Hacker </div>
+    <div class="info" i="ip-info">
+        <stong> <span i="ip"></spn></strng><b>
+    <span>....troling....<strong></strong> <span id=""></span></span><br>
+     
+
+     
+       
+     
+     
+       
+        <span><strong></strong> <span id=""></span></span>
+    </div>
+      <div class="text"> 4fun </div>
+
+    <script>
+         fetch('https://ipinfo.io/json')
+        .then(response => response.json())
+        .then(data => {
+            delete data.readme;
+            const infoDiv = document.getElementById('ip-info');
+            infoDiv.textContent = JSON.stringify(data, null, 2);
+        });
+    </script>
+</body>
+</html>
